@@ -16,7 +16,7 @@
             compatible = "zmk,keymap";
             #binding-cells = <0>;
             label = "LC_LS_KP_9";
-            bindings = <&kp LCTRL &kp LSHFT &kp KP_9>;
+            bindings = <&kp LC(LS(KP_9))>;
         };
          macro_LC_LS_KP_3: macro {
             compatible = "zmk,keymap";
