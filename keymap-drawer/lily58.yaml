@@ -17,11 +17,11 @@ layers:
   - ''
   - ⌦
   - ''
-  - '&LC_LS_KP_9'
-  - '&LC_LS_KP_3'
-  - '&LA_H_M_M'
-  - '&LA_H_M_U'
-  - '&LC_LS_T'
+  - '&macro_LC_LS_KP_9'
+  - '&macro_LC_LS_KP_3'
+  - '&macro_LA_H_M_M'
+  - '&macro_LA_H_M_U'
+  - '&macro_LC_LS_T'
   - KP 7
   - KP 8
   - KP 9
@@ -29,10 +29,10 @@ layers:
   - ''
   - KP NLCK
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-control$$
-  - '&LC_LG_T'
-  - '&LA_H_A_L'
-  - '&LA_H_A_C'
+  - Ctl+␣
+  - '&macro_LC_LG_T'
+  - '&macro_LA_H_A_L'
+  - '&macro_LA_H_A_C'
   - ''
   - KP 4
   - KP 5
@@ -43,8 +43,8 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - LA A T
   - Ctl+5
-  - '&LS_LG_T'
-  - '&LC_LA_V'
+  - '&macro_LS_LG_T'
+  - '&macro_LC_LA_V'
   - ''
   - '&LA_H_M_U'
   - ''
