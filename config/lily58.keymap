@@ -11,56 +11,56 @@
 #include <dt-bindings/zmk/outputs.h>
 
 / {
-    
-    &macro LC_LS_KP_9 {
-        binding = <&kp LC(LS(KP_9))>;
+    macros {
+        LC_LS_KP_9: macro_LC_LS_KP_9 {
+            bindings = <&kp LC(LS(KP_9))>;
+        };
+        LC_LS_KP_3: macro_LC_LS_KP_3 {
+            bindings = <&kp LC(LS(KP_3))>;
+        };
+        LA_H_M_M: macro_LA_H_M_M {
+            bindings = <&kp LA(H(M(M)))>;
+        };
+        LA_H_M_U: macro_LA_H_M_U {
+            bindings = <&kp LA(H(M(U)))>;
+        };
+        LC_LS_T: macro_LC_LS_T {
+            bindings = <&kp LC(LS(T))>;
+        };
+        LC_LG_T: macro_LC_LG_T {
+            bindings = <&kp LC(LG(T))>;
+        };
+        LA_H_A_L: macro_LA_H_A_L {
+            bindings = <&kp LA(H(A(L)))>;
+        };
+        LA_H_A_C: macro_LA_H_A_C {
+            bindings = <&kp LA(H(A(C)))>;
+        };
+        LA_A_T: macro_LA_A_T {
+            bindings = <&kp LA(A(T))>;
+        };
+        LC_N5: macro_LC_N5 {
+            bindings = <&kp LC(N5)>;
+        };
+        LC_LA_V: macro_LC_LA_V {
+            bindings = <&kp LC(LA(V))>;
+        };
+        LS_LG_T: macro_LS_LG_T {
+            bindings = <&kp LS(LG(T))>;
+        };
+        LSH_ASTRK: macro_LSH_ASTRK {
+            bindings = <&kp LSH(ASTRK)>;
+        };
+        LSH_FSLH: macro_LSH_FSLH {
+            bindings = <&kp LSH(FSLH)>;
+        };
+        LSH_RSHFT: macro_LSH_RSHFT {
+            bindings = <&kp LSH(RSHFT)>;
+        };
+        LSH_GRAVE: macro_LSH_GRAVE {
+            bindings = <&kp LSH(GRAVE)>;
+        };
     };
-    &macro LC_LS_KP_3 {
-        binding = <&kp LC(LS(KP_3))>;
-    };
-    &macro LA_H_M_M {
-        binding = <&kp LA(H(M(M)))>;
-    };
-    &macro LA_H_M_U {
-        binding = <&kp LA(H(M(U)))>;
-    };
-    &macro LC_LS_T {
-        binding = <&kp LC(LS(T))>;
-    };
-    &macro LC_LG_T {
-        binding = <&kp LC(LG(T))>;
-    };
-    &macro LA_H_A_L {
-        binding = <&kp LA(H(A(L)))>;
-    };
-    &macro LA_H_A_C {
-        binding = <&kp LA(H(A(C)))>;
-    };
-    &macro LA_A_T {
-        binding = <&kp LA(A(T))>;
-    };
-    &macro LC_N5 {
-        binding = <&kp LC(N5)>;
-    };
-    &macro LC_LA_V {
-        binding = <&kp LC(LA(V))>;
-    };
-    &macro LS_LG_T {
-        binding = <&kp LS(LG(T))>;
-    };
-    &macro LSH_ASTRK {
-        binding = <&kp LSH(ASTRK)>;
-    };
-    &macro LSH_FSLH {
-        binding = <&kp LSH(FSLH)>;
-    };
-    &macro LSH_RSHFT {
-        binding = <&kp LSH(RSHFT)>;
-    };
-    &macro LSH_GRAVE {
-        binding = <&kp LSH(GRAVE)>;
-    };
- 
 
     keymap {
         compatible = "zmk,keymap";
