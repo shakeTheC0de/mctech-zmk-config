@@ -12,72 +12,102 @@
  
  / {
     macros {
-        macro_hello: macro {
+        macro_LC_LS_KP_9: macro {
             compatible = "zmk,keymap";
             #binding-cells = <0>;
-            label = "HELLO";
-            bindings = <&kp H &kp E &kp L &kp L &kp O>;
+            label = "LC_LS_KP_9";
+            bindings = <&kp LCTRL &kp LSHFT &kp KP_9>;
         };
-        //  macro_LC_LS_KP_3: macro {
-        //     label = "LC_LS_KP_9";
-        //      bindings = <&kp LC(LS(KP_3))>;
-        //  };
-        //  macro_LA_H_M_M: macro {
-        //     label = "LC_LS_KP_9";
-        //      bindings = <&kp LA(H(M(M)))>;
-        //  };
-        //  macro_LA_H_M_U: macro {
-        //     label = "LC_LS_KP_9";
-        //      bindings = <&kp LA(H(M(U)))>;
-        //  };
-        //  macro_LC_LS_T: macro {
-        //     label = "LC_LS_KP_9";
-        //      bindings = <&kp LC(LS(T))>;
-        //  };
-        //  macro_LC_LG_T: macro {
-        //     label = "LC_LS_KP_9";
-        //      bindings = <&kp LC(LG(T))>;
-        //  };
-        //  macro_LA_H_A_L: macro {
-        //     label = "LC_LS_KP_9";
-        //      bindings = <&kp LA(H(A(L)))>;
-        //  };
-        //  macro_LA_H_A_C: macro {
-        //     label = "LC_LS_KP_9";
-        //      bindings = <&kp LA(H(A(C)))>;
-        //  };
-        //  macro_LA_A_T: macro {
-        //     label = "LC_LS_KP_9";
-        //      bindings = <&kp LA(A(T))>;
-        //  };
-        //  macro_LC_N5: macro {
-        //     label = "LC_LS_KP_9";
-        //      bindings = <&kp LC(N5)>;
-        //  };
-        //  macro_LC_LA_V: macro {
-        //     label = "LC_LS_KP_9";
-        //      bindings = <&kp LC(LA(V))>;
-        //  };
-        //  macro_LS_LG_T: macro {
-        //     label = "LC_LS_KP_9";
-        //      bindings = <&kp LS(LG(T))>;
-        //  };
-        //  macro_LSH_ASTRK: macro {
-        //     label = "LC_LS_KP_9";
-        //      bindings = <&kp LSH(ASTRK)>;
-        //  };
-        //  macro_LSH_FSLH: macro {
-        //     label = "LC_LS_KP_9";
-        //      bindings = <&kp LSH(FSLH)>;
-        //  };
-        //  macro_LSH_RSHFT: macro {
-        //     label = "LC_LS_KP_9";
-        //      bindings = <&kp LSH(RSHFT)>;
-        //  };
-        //  macro_LSH_GRAVE: macro {
-        //     label = "LC_LS_KP_9";
-        //      bindings = <&kp LSH(GRAVE)>;
-        //  };
+         macro_LC_LS_KP_3: macro {
+            compatible = "zmk,keymap";
+            #binding-cells = <1>;
+            label = "LC_LS_KP_3";
+             bindings = <&kp LC(LS(KP_3))>;
+         };
+         macro_LA_H_M_M: macro {
+            compatible = "zmk,keymap";
+            #binding-cells = <2>;
+            label = "LA_H_M_M";
+             bindings = <&kp LA(H(M(M)))>;
+         };
+         macro_LA_H_M_U: macro {
+            compatible = "zmk,keymap";
+            #binding-cells = <3>;
+            label = "LA_H_M_U";
+             bindings = <&kp LA(H(M(U)))>;
+         };
+         macro_LC_LS_T: macro {
+            compatible = "zmk,keymap";
+            #binding-cells = <4>;
+            label = "LC_LS_T";
+             bindings = <&kp LC(LS(T))>;
+         };
+         macro_LC_LG_T: macro {
+            compatible = "zmk,keymap";
+            #binding-cells = <5>;
+            label = "LC_LG_T";
+             bindings = <&kp LC(LG(T))>;
+         };
+         macro_LA_H_A_L: macro {
+            compatible = "zmk,keymap";
+            #binding-cells = <6>;
+            label = "LA_H_A_L";
+             bindings = <&kp LA(H(A(L)))>;
+         };
+         macro_LA_H_A_C: macro {
+            compatible = "zmk,keymap";
+            #binding-cells = <7>;
+            label = "LA_H_A_C";
+             bindings = <&kp LA(H(A(C)))>;
+         };
+         macro_LA_A_T: macro {
+            compatible = "zmk,keymap";
+            #binding-cells = <8>;
+            label = "LA_A_T";
+             bindings = <&kp LA(A(T))>;
+         };
+         macro_LC_N5: macro {
+            compatible = "zmk,keymap";
+            #binding-cells = <9>;
+            label = "LC_N5";
+             bindings = <&kp LC(N5)>;
+         };
+         macro_LC_LA_V: macro {
+            compatible = "zmk,keymap";
+            #binding-cells = <10>;
+            label = "LC_LA_V";
+             bindings = <&kp LC(LA(V))>;
+         };
+         macro_LS_LG_T: macro {
+            compatible = "zmk,keymap";
+            #binding-cells = <11>;
+            label = "LS_LG_T";
+             bindings = <&kp LS(LG(T))>;
+         };
+         macro_LSH_ASTRK: macro {
+            compatible = "zmk,keymap";
+            #binding-cells = <12>;
+            label = "LSH_ASTRK";
+             bindings = <&kp LSH(ASTRK)>;
+         };
+         macro_LSH_FSLH: macro {
+            compatible = "zmk,keymap";
+            #binding-cells = <13>;
+            label = "LSH_FSLH";
+             bindings = <&kp LSH(FSLH)>;
+         };
+         macro_LSH_RSHFT: macro {
+            compatible = "zmk,keymap";
+            #binding-cells = <14>;
+            label = "LSH_RSHFT";
+             bindings = <&kp LSH(RSHFT)>;
+         };
+         macro_LSH_GRAVE: macro {
+            compatible = "zmk,keymap";
+            #binding-cells = <15>;
+            label = "LSH_GRAVE";
+             bindings = <&kp LSH(GRAVE)>;
+         };
      };
  
      keymap {
