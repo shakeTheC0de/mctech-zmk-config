@@ -13,6 +13,8 @@
  / {
     macros {
         macro_hello: macro {
+            compatible = "zmk,keymap";
+            #binding-cells = <0>;
             label = "HELLO";
             bindings = <&kp H &kp E &kp L &kp L &kp O>;
         };
