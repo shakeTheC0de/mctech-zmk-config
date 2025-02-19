@@ -17,11 +17,11 @@ layers:
   - ''
   - ⌦
   - ''
-  - Ctl+LS KP 9
-  - Ctl+LS KP 3
-  - Alt+H M M
-  - Alt+H M U
-  - Ctl+LS T
+  - Ctl+Sft+KP 9
+  - Ctl+Sft+KP 3
+  - Alt+H(M(M))
+  - Alt+H(M(U))
+  - Ctl+Sft+T
   - KP 7
   - KP 8
   - KP 9
@@ -30,9 +30,9 @@ layers:
   - KP NLCK
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
-  - Ctl+LG t
-  - Alt+H A L
-  - Alt+H A C
+  - Ctl+Gui+T
+  - Alt+H(A(L))
+  - Alt+H(A(C))
   - ''
   - KP 4
   - KP 5
@@ -41,12 +41,12 @@ layers:
   - ''
   - ''
   - $$mdi:apple-keyboard-control$$
-  - Alt+A T
+  - Alt+A(T)
   - Ctl+5
-  - Sft+LG T
-  - Ctl+LA V
+  - Sft+Gui+T
+  - Ctl+Alt+V
   - ''
-  - Alt+H M U
+  - Alt+H(M(U))
   - ''
   - KP 1
   - KP 2
