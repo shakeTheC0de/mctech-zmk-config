@@ -11,6 +11,25 @@
 #include <dt-bindings/zmk/outputs.h>
 
 / {
+    macros {
+        LC_LS_KP_9 = <&kp LC(LS(KP_9))>;
+        LC_LS_KP_3 = <&kp LC(LS(KP_3))>;
+        LA_H_M_M = <&kp LA(H(M(M)))>;
+        LA_H_M_U = <&kp LA(H(M(U)))>;
+        LC_LS_T = <&kp LC(LS(T))>;
+        LC_LG_T = <&kp LC(LG(T))>;
+        LA_H_A_L = <&kp LA(H(A(L)))>;
+        LA_H_A_C = <&kp LA(H(A(C)))>;
+        LA_A_T = <&kp LA(A(T))>;
+        LC_N5 = <&kp LC(N5)>;
+        LC_LA_V = <&kp LC(LA(V))>;
+        LS_LG_T = <&kp LS(LG(T))>;
+        LSH_ASTRK = <&kp LSH(ASTRK)>;
+        LSH_FSLH = <&kp LSH(FSLH)>;
+        LSH_RSHFT = <&kp LSH(RSHFT)>;
+        LSH_GRAVE = <&kp LSH(GRAVE)>;
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -42,11 +61,11 @@
 //                     |      |      |      |        |  |       |      |       |       |
             display-name = "Low";
             bindings = <
-&kp ESC    &kp LS(GRAVE)    &none             &none              &kp F4          &none                                     &kp KP_PLUS  &kp KP_MINUS   &kp ASTRK  &kp FSLH    &none      &kp DEL 
-&none      &kp LC(LS(KP_9)) &kp LC(LS(KP_3))  &kp LA(H(M(M)))    &kp LA(H(M(U))) &kp LC(LS(T))                             &kp KP_7     &kp KP_8       &kp KP_9   &kp EQUAL   &none      &kp KP_NLCK  
-&kp LSHFT  &kp LCTRL        &kp LC(LG(T))     &kp LA(H(A(L)))    &kp LA(H(A(C))) &none                                     &kp KP_4     &kp KP_5       &kp KP_6   &none       &none      &none    
-&kp LCTRL  &kp LA(A(T))     &kp LC(N5)        &kp LS(LG(T))      &kp LC(LA(V))   &none         &kp LA(H(M(U)))   &none     &kp KP_1     &kp KP_2       &kp KP_3   &none       &none      &kp BSPC   
-                                              &kp LGUI           &none           &kp LALT      &kp BSPC          &kp RET   &kp KP_0     &kp KP_DOT     &kp BSPC
+&kp ESC    &LS(GRAVE)    &none        &none        &kp F4    &none                                  &kp KP_PLUS  &kp KP_MINUS   &kp ASTRK  &kp FSLH    &none      &kp DEL 
+&none      &LC_LS_KP_9   &LC_LS_KP_3  &LA_H_M_M    &LA_H_M_U &LC_LS_T                               &kp KP_7     &kp KP_8       &kp KP_9   &kp EQUAL   &none      &kp KP_NLCK  
+&kp LSHFT  &kp LCTRL     &LC_LG_T     &LA_H_A_L    &LA_H_A_C &none                                  &kp KP_4     &kp KP_5       &kp KP_6   &none       &none      &none    
+&kp LCTRL  &kp LA_A_T    &kp LC(N5)   &LS_LG_T     &LC_LA_V  &none       &LA_H_M_U     &none        &kp KP_1     &kp KP_2       &kp KP_3   &none       &none      &kp BSPC   
+                         &kp LGUI     &none        &kp LALT  &kp BSPC    &kp RET       &kp KP_0     &kp KP_DOT     &kp BSPC
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;

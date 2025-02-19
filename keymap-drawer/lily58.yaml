@@ -5,7 +5,7 @@ layers:
     Low, ␣, ⏎, ⏎, ␣, Rai, '$$mdi:apple-keyboard-option$$']
   Low:
   - Esc
-  - Sft+`
+  - '&LS(GRAVE)'
   - ''
   - ''
   - F4
@@ -17,11 +17,11 @@ layers:
   - ''
   - ⌦
   - ''
-  - Ctl+Sft+KP 9
-  - Ctl+Sft+KP 3
-  - Alt+H(M(M))
-  - Alt+H(M(U))
-  - Ctl+Sft+T
+  - '&LC_LS_KP_9'
+  - '&LC_LS_KP_3'
+  - '&LA_H_M_M'
+  - '&LA_H_M_U'
+  - '&LC_LS_T'
   - KP 7
   - KP 8
   - KP 9
@@ -30,9 +30,9 @@ layers:
   - KP NLCK
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
-  - Ctl+Gui+T
-  - Alt+H(A(L))
-  - Alt+H(A(C))
+  - '&LC_LG_T'
+  - '&LA_H_A_L'
+  - '&LA_H_A_C'
   - ''
   - KP 4
   - KP 5
@@ -41,12 +41,12 @@ layers:
   - ''
   - ''
   - $$mdi:apple-keyboard-control$$
-  - Alt+A(T)
+  - LA A T
   - Ctl+5
-  - Sft+Gui+T
-  - Ctl+Alt+V
+  - '&LS_LG_T'
+  - '&LC_LA_V'
   - ''
-  - Alt+H(M(U))
+  - '&LA_H_M_U'
   - ''
   - KP 1
   - KP 2
