@@ -4,64 +4,64 @@ layers:
     A, S, D, F, G, H, J, K, L, ;, '''', '$$mdi:apple-keyboard-control$$', Z, X, C, V, B, Sft+LG S, Alt+⏎, N, M, ',', ., /, '$$mdi:apple-keyboard-shift$$', '$$mdi:apple-keyboard-command$$',
     Low, ␣, ⏎, ⏎, ␣, Rai, '$$mdi:apple-keyboard-option$$']
   Low:
-  - BT CLR
-  - BT 1
-  - BT 2
-  - BT 3
-  - BT 4
-  - BT 5
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - F1
-  - F2
-  - F3
+  - Esc
+  - Sft+`
+  - ''
+  - ''
   - F4
-  - F5
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
-  - F11
-  - F12
-  - '`'
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - AMPS
-  - KP MULTIPLY
-  - (
-  - )
-  - '~'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - OUT TOG
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '-'
+  - ''
   - KP PLUS
-  - '{'
-  - '}'
-  - '|'
-  - {t: ▽, type: trans}
+  - KP MINUS
+  - '*'
+  - /
+  - ''
+  - ⌦
+  - ''
+  - Ctl+Sft+KP 9
+  - Ctl+Sft+KP 3
+  - Alt+H(M(M))
+  - Alt+H(M(U))
+  - Ctl+Sft+T
+  - KP 7
+  - KP 8
+  - KP 9
+  - '='
+  - ''
+  - KP NLCK
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
+  - Ctl+Gui+T
+  - Alt+H(A(L))
+  - Alt+H(A(C))
+  - ''
+  - KP 4
+  - KP 5
+  - KP 6
+  - ''
+  - ''
+  - ''
+  - $$mdi:apple-keyboard-control$$
+  - Alt+A(T)
+  - Ctl+5
+  - Sft+Gui+T
+  - Ctl+Alt+V
+  - ''
+  - Alt+H(M(U))
+  - ''
+  - KP 1
+  - KP 2
+  - KP 3
+  - ''
+  - ''
+  - $$mdi:backspace-outline$$
+  - $$mdi:apple-keyboard-command$$
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:backspace-outline$$
+  - ⏎
+  - KP 0
+  - KP DOT
+  - $$mdi:backspace-outline$$
   Rai:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

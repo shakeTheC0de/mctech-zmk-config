@@ -42,11 +42,11 @@
 //                     |      |      |      |        |  |       |      |       |       |
             display-name = "Low";
             bindings = <
-&bt BT_CLR &bt BT_SEL 0     &bt BT_SEL 1      &bt BT_SEL 2      &bt BT_SEL 3 &bt BT_SEL 4                       &trans    &trans    &trans          &trans    &trans    &trans
-&kp F1     &kp F2           &kp F3            &kp F4            &kp F5       &kp F6                             &kp F7    &kp F8    &kp F9          &kp F10   &kp F11   &kp F12
-&kp GRAVE  &kp EXCL         &kp AT            &kp HASH          &kp DOLLAR   &kp PRCNT                          &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR  &kp RPAR  &kp TILDE
-&trans     &trans           &trans            &trans            &trans       &trans    &out OUT_TOG   &trans    &trans    &kp MINUS &kp KP_PLUS     &kp LBRC  &kp RBRC  &kp PIPE
-                                              &trans            &trans       &trans    &trans         &trans    &trans    &trans    &trans
+&kp ESC    &kp LS(GRAVE)    &none             &none              &kp F4          &none                                     &kp KP_PLUS  &kp KP_MINUS   &kp ASTRK  &kp FSLH    &none      &kp DEL 
+&none      &kp LC(LS(KP_9)) &kp LC(LS(KP_3))  &kp LA(H(M(M)))    &kp LA(H(M(U))) &kp LC(LS(T))                             &kp KP_7     &kp KP_8       &kp KP_9   &kp EQUAL   &none      &kp KP_NLCK  
+&kp LSHFT  &kp LCTRL        &kp LC(LG(T))     &kp LA(H(A(L)))    &kp LA(H(A(C))) &none                                     &kp KP_4     &kp KP_5       &kp KP_6   &none       &none      &none    
+&kp LCTRL  &kp LA(A(T))     &kp LC(N5)        &kp LS(LG(T))      &kp LC(LA(V))   &none         &kp LA(H(M(U)))   &none     &kp KP_1     &kp KP_2       &kp KP_3   &none       &none      &kp BSPC   
+                                              &kp LGUI           &none           &kp LALT      &kp BSPC          &kp RET   &kp KP_0     &kp KP_DOT     &kp BSPC
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
