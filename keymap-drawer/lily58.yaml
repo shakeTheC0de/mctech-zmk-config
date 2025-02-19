@@ -4,64 +4,64 @@ layers:
     A, S, D, F, G, H, J, K, L, ;, '''', '$$mdi:apple-keyboard-control$$', Z, X, C, V, B, Sft+LG S, Alt+⏎, N, M, ',', ., /, '$$mdi:apple-keyboard-shift$$', '$$mdi:apple-keyboard-command$$',
     Low, ␣, ⏎, ⏎, ␣, Rai, '$$mdi:apple-keyboard-option$$']
   Low:
-  - Esc
-  - '&LS(GRAVE)'
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '`'
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - {t: ▽, type: trans}
+  - F1
+  - F2
+  - F3
   - F4
-  - ''
+  - F5
+  - F6
+  - {t: ▽, type: trans}
+  - ←
+  - ↓
+  - ↑
+  - →
+  - {t: ▽, type: trans}
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - F12
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - KP PLUS
-  - KP MINUS
-  - '*'
-  - /
-  - ''
-  - ⌦
-  - ''
-  - '&macro_LC_LS_KP_9'
-  - '&macro_LC_LS_KP_3'
-  - '&macro_LA_H_M_M'
-  - '&macro_LA_H_M_U'
-  - '&macro_LC_LS_T'
-  - KP 7
-  - KP 8
-  - KP 9
+  - '-'
   - '='
-  - ''
-  - KP NLCK
-  - $$mdi:apple-keyboard-shift$$
-  - Ctl+␣
-  - '&macro_LC_LG_T'
-  - '&macro_LA_H_A_L'
-  - '&macro_LA_H_A_C'
-  - ''
-  - KP 4
-  - KP 5
-  - KP 6
-  - ''
-  - ''
-  - ''
-  - $$mdi:apple-keyboard-control$$
-  - LA A T
-  - Ctl+5
-  - '&macro_LS_LG_T'
-  - '&macro_LC_LA_V'
-  - ''
-  - '&LA_H_M_U'
-  - ''
-  - KP 1
-  - KP 2
-  - KP 3
-  - ''
-  - ''
-  - $$mdi:backspace-outline$$
-  - $$mdi:apple-keyboard-command$$
+  - '['
+  - ']'
+  - \
+  - {t: ▽, type: trans}
   - {type: held}
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:backspace-outline$$
-  - ⏎
-  - KP 0
-  - KP DOT
-  - $$mdi:backspace-outline$$
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   Rai:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
