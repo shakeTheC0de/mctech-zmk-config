@@ -4,7 +4,7 @@ layers:
     A, S, D, F, G, H, J, K, L, ;, '''', '$$mdi:apple-keyboard-control$$', Z, X, C, V, B, Sft+LG S, Alt+⏎, N, M, ',', ., /, '$$mdi:apple-keyboard-shift$$', '$$mdi:apple-keyboard-command$$',
     Low, ␣, ⏎, ⏎, ␣, Rai, '$$mdi:apple-keyboard-option$$']
   Low:
-  - '&macro_LC_LS_KP_9'
+  - '&macro_LC_LS_KP_9()'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
