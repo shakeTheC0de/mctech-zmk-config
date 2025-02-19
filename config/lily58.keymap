@@ -12,13 +12,16 @@
  
  / {
     macros {
-        macro_LC_LS_KP_9: macro {
+        zed_em_kay: zed_em_kay {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            label = "LC_LS_KP_9";
-            bindings = <&kp LCTRL &kp LSHFT &kp KP_9>;
+            bindings
+                = <&macro_press &kp LSHFT>
+                , <&macro_tap &kp Z &kp M &kp K>
+                , <&macro_release &kp LSHFT>
+                ;
         };
-     };
+    };
  
      keymap {
          compatible = "zmk,keymap";
@@ -51,7 +54,7 @@
  //                     |      |      |      |        |  |       |      |       |       |
              display-name = "Low";
              bindings = <
-&macro_LC_LS_KP_9    &trans &trans &trans  &trans  &trans                       &trans      &trans    &trans    &trans   &trans    &trans
+&zed_em_kay    &trans &trans &trans  &trans  &trans                       &trans      &trans    &trans    &trans   &trans    &trans
 &kp GRAVE &kp N1 &kp N2 &kp N3  &kp N4  &kp N5                       &kp N6      &kp N7    &kp N8    &kp N9   &kp N0    &trans
 &kp F1    &kp F2 &kp F3 &kp F4  &kp F5  &kp F6                       &trans      &kp LEFT  &kp DOWN  &kp UP   &kp RIGHT &trans
 &kp F7    &kp F8 &kp F9 &kp F10 &kp F11 &kp F12   &trans   &trans    &kp KP_PLUS &kp MINUS &kp EQUAL &kp LBKT &kp RBKT  &kp BSLH
