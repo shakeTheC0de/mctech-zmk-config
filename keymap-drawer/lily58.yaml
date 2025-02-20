@@ -4,88 +4,65 @@ layers:
     A, S, D, F, G, H, J, K, L, ;, '''', '$$mdi:apple-keyboard-control$$', Z, X, C, V, B, Sft+LG S, Alt+⏎, N, M, ',', ., /, '$$mdi:apple-keyboard-shift$$', '$$mdi:apple-keyboard-command$$',
     Low, ␣, ⏎, ⏎, ␣, Rai, '$$mdi:apple-keyboard-option$$']
   Low:
-  - '&zed_em_kay'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '`'
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - {t: ▽, type: trans}
-  - F1
-  - F2
-  - F3
+  - ''
+  - ''
   - F4
-  - F5
-  - F6
+  - ''
+  - KP PLUS
+  - KP MINUS
+  - KP ASTERISK
+  - KP SLASH
+  - ''
+  - ⌦
+  - ''
+  - Ctl+Sft+KP 9
+  - Ctl+Sft+KP 3
+  - '&lalt_hmm'
+  - '&lalt_hmu'
+  - Ctl+Sft+T
+  - KP 7
+  - KP 8
+  - KP 9
+  - '='
+  - ''
+  - LNLCK
   - {t: ▽, type: trans}
-  - ←
-  - ↓
-  - ↑
-  - →
+  - Ctl+␣
+  - Ctl+Gui+T
+  - '&lalt_hal'
+  - lalt hac
+  - Gui+Sft+C
+  - KP 4
+  - KP 5
+  - KP 6
+  - ''
+  - ''
+  - ''
   - {t: ▽, type: trans}
-  - F7
-  - F8
-  - F9
-  - F10
-  - F11
-  - F12
+  - '&lalt_at'
+  - Ctl+5
+  - Gui+Sft+T
+  - Ctl+Alt+V
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - KP 1
+  - KP 2
+  - KP 3
   - KP PLUS
   - '-'
   - '='
-  - '['
-  - ']'
-  - \
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:backspace-outline$$
+  - ⏎
+  - KP 0
+  - KP DOT
+  - $$mdi:backspace-outline$$
   Rai:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '`'
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
   - {t: ▽, type: trans}
   - F1
   - F2
@@ -93,29 +70,52 @@ layers:
   - F4
   - F5
   - F6
-  - {t: ▽, type: trans}
-  - ←
-  - ↓
-  - ↑
-  - →
-  - {t: ▽, type: trans}
   - F7
   - F8
   - F9
-  - F10
   - F11
   - F12
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - KP PLUS
-  - '-'
-  - '='
+  - ''
   - '['
   - ']'
-  - \
+  - ''
+  - Out USB
+  - Out BLE
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - BT 1
+  - BT 2
+  - BT 3
+  - BT 4
+  - BT 5
+  - '&lalt_hal'
+  - '&lalt_hac'
+  - ''
+  - ''
+  - ↑
+  - ''
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - OUT TOG
+  - {t: ▽, type: trans}
+  - '&lalt_hmm'
+  - '&lalt_hmu'
+  - ''
+  - ←
+  - ↓
+  - →
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LA
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
