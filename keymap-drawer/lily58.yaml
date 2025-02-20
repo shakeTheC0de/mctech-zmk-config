@@ -32,7 +32,7 @@ layers:
   - Ctl+␣
   - Ctl+Gui+T
   - '&lalt_hal'
-  - lalt hac
+  - '&lalt_hac'
   - Gui+Sft+C
   - KP 4
   - KP 5

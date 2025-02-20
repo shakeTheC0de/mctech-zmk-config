@@ -72,7 +72,7 @@
              bindings = <
 &trans    &kp GRAVE         &none             &none          &kp F4         &none                              &kp KP_PLUS  &kp KP_MINUS  &kp KP_ASTERISK  &kp KP_SLASH   &none     &kp DEL
 &none     &kp LC(LS(KP_N9)) &kp LC(LS(KP_N3)) &lalt_hmm      &lalt_hmu      &kp LC(LS(T))                      &kp KP_N7    &kp KP_N8     &kp KP_N9        &kp EQUAL      &none     &kp LNLCK
-&trans    &kp LC(SPACE)     &kp LC(LG(T))     &lalt_hal      &kp lalt_hac   &kp LG(LS(C))                      &kp KP_N4    &kp KP_N5     &kp KP_N6        &none          &none     &none 
+&trans    &kp LC(SPACE)     &kp LC(LG(T))     &lalt_hal      &lalt_hac      &kp LG(LS(C))                      &kp KP_N4    &kp KP_N5     &kp KP_N6        &none          &none     &none 
 &trans    &lalt_at          &kp LC(N5)        &kp LG(LS(T))  &kp LC(LA(V))  &none          &trans   &trans     &kp KP_N1    &kp KP_N2     &kp KP_N3        &kp KP_PLUS    &kp MINUS &kp EQUAL  
                                               &trans         &trans         &kp LALT       &kp BSPC &kp RET    &kp KP_N0    &kp KP_DOT    &kp BSPC
 //  &kp ESC    &LS(GRAVE)    &none        &none        &kp F4    &none                                  &kp KP_PLUS  &kp KP_MINUS   &kp ASTRK  &kp FSLH    &none      &kp DEL 
