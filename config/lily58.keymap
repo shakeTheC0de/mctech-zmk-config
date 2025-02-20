@@ -98,7 +98,7 @@
  &none     &kp LBKT     &kp RBKT     &none         &out OUT_USB  &out OUT_BLE                          &none       &none     &none   &none    &none     &none
  &trans    &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                          &lalt_hal   &lalt_hac &none   &none    &kp UP    &none
  &trans    &none        &none        &none         &none         &none         &out OUT_TOG   &trans   &lalt_hmm   &lalt_hmu &none   &kp LEFT &kp DOWN  &kp RIGHT
-                        &trans       &trans        &kp LA        &trans        &trans         &trans   &trans    &trans
+                        &trans       &trans        &kp LALT      &trans        &trans         &trans   &trans    &trans
              >;
  
              sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;

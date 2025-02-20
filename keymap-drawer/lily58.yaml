@@ -115,7 +115,7 @@ layers:
   - →
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LA
+  - $$mdi:apple-keyboard-option$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
