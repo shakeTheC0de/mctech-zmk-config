@@ -15,14 +15,7 @@
         zed_em_kay: zed_em_kay {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LCTRL &kp LSHFT &kp KP_9>;
-        };
-
-        LS_LC_KP_9: LS_LC_KP_9 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(LC(KP_N9))>;
-            label = "LS_LC_KP_9";
+            bindings = <&kp LALT &kp H &kp M &kp M>;
         };
     };
  
