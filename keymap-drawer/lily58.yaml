@@ -1,7 +1,7 @@
-layout: {qmk_keyboard: lily58_rotated}
+layout: {zmk_keyboard: lily58}
 layers:
   Bas: [Esc, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '$$mdi:backspace-outline$$', ↹, Q, W, E, R, T, Y, U, I, O, P, '-', '$$mdi:apple-keyboard-shift$$',
-    A, S, D, F, G, H, J, K, L, ;, '''', '$$mdi:apple-keyboard-control$$', Z, X, C, V, B, Sft+LG S, Alt+⏎, N, M, ',', ., /, '$$mdi:apple-keyboard-shift$$', '$$mdi:apple-keyboard-command$$',
+    A, S, D, F, G, H, J, K, L, ;, '''', '$$mdi:apple-keyboard-control$$', Z, X, C, V, B, Sft+LGS, Alt+⏎, N, M, ',', ., /, '$$mdi:apple-keyboard-shift$$', '$$mdi:apple-keyboard-command$$',
     Low, ␣, ⏎, ⏎, ␣, Rai, '$$mdi:apple-keyboard-option$$']
   Low:
   - {t: ▽, type: trans}
@@ -93,10 +93,10 @@ layers:
   - BT 3
   - BT 4
   - BT 5
-  - '&lalt_hal'
-  - '&lalt_hac'
-  - ''
-  - ''
+  - LEFT ARROW
+  - ↓
+  - UP ARROW
+  - DOWN ARROW
   - ↑
   - ''
   - {t: ▽, type: trans}
